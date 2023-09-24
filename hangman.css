@@ -1,0 +1,75 @@
+.container{
+    background-color: darkslateblue;
+    max-width: 1000px;
+    height: 700px;
+    margin: 0 auto 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ubuntu;
+
+}
+.letters{
+    margin-top: 40px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    
+
+}
+.letter{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}.letter:hover{
+        background-color: rgb(96, 82, 175);
+    }
+#display{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.image{
+
+}
+.word{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: slateblue;
+}
+.used{
+    width: 50px;
+    height: 50px;
+    background-color: mediumpurple;
+    border: 1px solid black;
+    opacity: .5;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.h3{
+    display: none;
+}
+.next{
+    width:96px;
+    height: 36px;
+    border-radius: 9px;
+    font-size: larger;
+    border:1px solid rgb(45, 17, 65);
+    background-color: rgb(79, 34, 75);
+
+}
