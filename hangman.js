@@ -43,22 +43,22 @@ function ckeckIfLost(){
 function updateHangmanPicture() {
      switch (mistakes){
         case 1:
-            image.src = `/images/hangman${mistakes}.png`
+            image.src = `./images/hangman${mistakes}.png`
             break;
         case 2:
-            image.src = `/images/hangman${mistakes}.png`
+            image.src = `./images/hangman${mistakes}.png`
             break;
         case 3:
-            image.src = `/images/hangman${mistakes}.png`
+            image.src = `./images/hangman${mistakes}.png`
             break;
         case 4:
-            image.src = `/images/hangman${mistakes}.png`
+            image.src = `./images/hangman${mistakes}.png`
             break;
         case 5:
-            image.src = `/images/hangman${mistakes}.png`
+            image.src = `./images/hangman${mistakes}.png`
             break;
         case 6 : 
-        image.src = `/images/hangman${mistakes}.png`
+        image.src = `./images/hangman${mistakes}.png`
         
             break;
         default:
